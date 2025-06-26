@@ -391,15 +391,6 @@ Ce projet a été développé dans le cadre d'un cours sur les **APIs REST moder
 
 Ce projet est sous licence **MIT**. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-## 👨‍💻 Auteur
-
-**Votre Nom**
-- GitHub: [@votre-username](https://github.com/votre-username)
-- LinkedIn: [Votre Profil](https://linkedin.com/in/votre-profil)
-- Email: votre.email@example.com
-
----
-
 
 **⭐ N'hésitez pas à star le projet si il vous a été utile ! ⭐**
 
