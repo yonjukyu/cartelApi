@@ -13,6 +13,11 @@
 
 ---
 
+## Environnement déployé
+
+*Swagger UI accessible (attention ça peut prendre du temps à charger) :*
+- https://cartelapi.onrender.com/swagger-ui/index.html
+
 ## 🌟 Points forts
 
 - 🤖 **Intelligence Artificielle** : Mistral AI intégré pour suggestions, analyses et chat
@@ -293,39 +298,6 @@ curl -X GET "http://localhost:8080/api/ai/operation-suggestions?territory=Miami"
   -H "Authorization: Bearer YOUR_TOKEN"
 ```
 
-## 🐳 Déploiement
-
-### Docker local
-```bash
-docker build -t cartel-api .
-docker run -p 8080:8080 \
-  -e MISTRAL_API_KEY=your-key \
-  -e JWT_SECRET=your-secret \
-  cartel-api
-```
-
-### Docker Compose (avec MySQL)
-```bash
-docker-compose up -d
-```
-
-### Plateformes cloud supportées
-- ✅ **Railway** (recommandé)
-- ✅ **Heroku**
-- ✅ **Render**
-- ✅ **DigitalOcean App Platform**
-- ✅ **AWS Elastic Beanstalk**
-
-### Variables d'environnement production
-```env
-MISTRAL_API_KEY=your-mistral-api-key
-DATABASE_URL=jdbc:mysql://host:3306/carteldb
-DATABASE_USERNAME=username
-DATABASE_PASSWORD=password
-JWT_SECRET=your-super-secret-jwt-key
-CORS_ALLOWED_ORIGINS=https://yourfrontend.com
-```
-
 ## 📈 Monitoring
 
 ### Health checks intégrés
@@ -359,20 +331,6 @@ CORS_ALLOWED_ORIGINS=https://yourfrontend.com
 - ✅ **Documentation Swagger** interactive
 - ✅ **Docker** ready
 - ✅ **Déploiement** cloud simplifié
-
-## 🤝 Contribution
-
-1. **Fork** le projet
-2. **Créez** votre branche (`git checkout -b feature/AmazingFeature`)
-3. **Commitez** vos changements (`git commit -m 'Add: Amazing Feature'`)
-4. **Pushez** vers la branche (`git push origin feature/AmazingFeature`)
-5. **Ouvrez** une Pull Request
-
-### Guidelines
-- Code en **anglais** avec commentaires en français
-- **Tests unitaires** obligatoires pour nouvelles fonctionnalités
-- **Documentation** mise à jour (Swagger + README)
-- **Respecter** les conventions Spring Boot
 
 ## 🎓 Contexte éducatif
 
