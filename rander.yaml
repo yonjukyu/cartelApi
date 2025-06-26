@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: cartel-api-demo
+    env: docker
+    region: frankfurt
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: demo
+      - key: MISTRAL_API_KEY
+        value: demo-key-for-render-deployment
+    healthCheckPath: /actuator/health
