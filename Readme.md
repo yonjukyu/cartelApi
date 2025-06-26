@@ -344,12 +344,3 @@ Ce projet a été développé dans le cadre d'un cours sur les **APIs REST moder
 - **Déploiement** moderne avec Docker
 
 > ⚠️ **Disclaimer** : Ce projet est purement éducatif et fictif. Aucune activité illégale n'est promue ou encouragée.
-
-## 📄 Licence
-
-Ce projet est sous licence **MIT**. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
-
-**⭐ N'hésitez pas à star le projet si il vous a été utile ! ⭐**
-
-**🤖 Propulsé par Mistral AI • 🚀 Construit avec Spring Boot • ❤️ Made with passion**
